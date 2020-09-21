@@ -10,3 +10,15 @@ margin: 0;
     border-radius: 5px;
     padding: 10px;
 }
+
+
+button{
+    outline: none;
+    border:none;
+    display: block;
+    border-radius: 5px;
+    background-color: coral;
+    margin: 15px;
+    padding: 10px;
+    cursor: pointer;
+}

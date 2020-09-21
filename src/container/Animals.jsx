@@ -7,11 +7,9 @@ class Animals extends Component {
     constructor() {
         super();
 
-
-      
-
-
     }
+
+
     state = {
 
         animals: [
@@ -22,15 +20,7 @@ class Animals extends Component {
     }
 
 
-handleAddNumber = () =>{
-    this.setState ({
-        animals: [
-            { name: "palang", type: "rrrrwww", number: 1 },
-            { name: "shotor", type: "pfffff", number:1 },
-            { name: "asb", type: "hiiiii", number: 1 },
-        ]
-    })
-}
+
 
 
     render() {
@@ -43,12 +33,9 @@ handleAddNumber = () =>{
                     {animals.map(animal => (
                         <AnimalCards name={animal.name} type={animal.type} number={animal.number} />
                     ))}
-
-<button onClick={this.handleAddNumber}>Add too bag</button>
-
-                   
+ 
                 </div>
-
+               
             </React.Fragment>
         );
     }

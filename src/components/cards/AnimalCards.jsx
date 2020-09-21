@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
 import  "./AnimalCards.css";
+
+
+
+
 const AnimalCards =({name,type,number}) => {
 
+
+
+   
 
     return (
 
@@ -14,6 +21,8 @@ const AnimalCards =({name,type,number}) => {
                 <h3>Animals' type :{type}</h3>
                 <h3>Number :{number}</h3>
                 <hr/>
+                {/* button component place */}
+                <button>Shop Now!</button>
             </div>
             
        </React.Fragment>
