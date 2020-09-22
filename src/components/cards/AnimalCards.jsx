@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import  "./AnimalCards.css";
+import Details from '../detail/Details';
 
-
+import{Route,Switch,Link} from 'react-router-dom';
 
 
 const AnimalCards =({name,type,number}) => {
@@ -22,7 +23,9 @@ const AnimalCards =({name,type,number}) => {
                 <h3>Number :{number}</h3>
                 <hr/>
                 {/* button component place */}
-                <button>Shop Now!</button>
+   
+               <button> <Link to="/details">Show Details</Link> </button> 
+                
             </div>
             
        </React.Fragment>

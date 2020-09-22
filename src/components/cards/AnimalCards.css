@@ -21,4 +21,10 @@ button{
     margin: 15px;
     padding: 10px;
     cursor: pointer;
+    
+}
+
+
+.link{
+    text-decoration: none;
 }
